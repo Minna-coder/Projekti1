@@ -1,8 +1,7 @@
-//tähän todolistan javascript koodit
+//tähän todolistan javascript koodit//
 let addToDoButton = document.getElementById("LisääArtikkeli");
 let toDoContainer = document.getElementById("toDoContainer");
 let inputField = document.getElementById("inputField");
-
 
 
 addToDoButton.addEventListener('click', function(){
