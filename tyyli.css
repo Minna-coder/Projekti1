@@ -1,28 +1,24 @@
+
+
 body {
     background-color: rgb(47, 144, 209);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    justify-content: center;
   }
   
   h1 {
     color: rgb(235, 235, 238);
-    text-align: left;
+    text-align: center;
     font-size: 40px;
+    justify-content: center;
   }
+
   
   p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; 
     font-size: 20px;
+    color:
+    
   }
-  
-  h2 {
-  color: darkblue;
-  font-size: 18px;
-  }
-  
-  legend {
-  color: darkblue;
-  font-size: 28px;
-  text-align: center;
-  
-  }
+
   
