@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+    <title>Mökkilista</title>
+</head>
+<body>
+    <div id="ekaDIV" class="header">
+        <h2>Mökkilista</h2>
+        <p>Vie mennessäs!</p>
+        <input type="text" id="myInput" placeholder="merkitse tähän...">
+        <span onclick="newElement()" class="addBtn">Lisää listaan</span>
+        
+      </div>
+      
+      <ul id="ekaUL">
+        <li>Kahvit ja teet</li>
+        <li class="checked">Jätesäkkejä</li>
+        <li>Vuodevaatteet</li>
+        <li>Pyyhkeet</li>
+        <li>Tulitikut</li>
+        <li>Jätesäkkejä</li>
+      </ul>
+
+      <div class="callout">
+        <div class="callout-header"><strong>Mökkikunnan uutiset</strong>
+        <a href="https://www.polvijarvi.fi/">täältä!</a>
+            <p><strong>Muista avaimet!</strong></p>
+        </div>
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        
+      </div>
+
+
+
+    <script src="javamaintoka.js">
+  
+</script> 
+</body>
+</html>
