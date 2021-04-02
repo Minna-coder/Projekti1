@@ -110,8 +110,8 @@ input {
 
 .callout {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 130px;
+  right: 130px;
   margin-left: 60px;
   max-width: 200px;
 }
