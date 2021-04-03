@@ -2,6 +2,7 @@
 box-sizing: border-box;
 }
 
+
 /* TÄmä poistaa margins and padding from the list */
 
 ul {
@@ -136,3 +137,4 @@ input {
 .closebtn:hover {
   color: lightgrey;
 }
+
