@@ -9,7 +9,7 @@ ul {
   padding: 0;
 }
 
-/* Style the list items */
+/* Tyyli the list items */
 ul li {
   cursor: pointer;
   position: relative;
@@ -19,12 +19,12 @@ ul li {
   transition: 0.2s;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
+/* Seepraraidat listalla  */
 ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
-/* Darker background-color on hover */
+/* Tummempi tausta hoverilla */
 ul li:hover {
   background: #ddd;
 }
@@ -36,7 +36,7 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-/* Add a "checked" mark when clicked on */
+/* Lisää tark merkki "checked" kun klikattu */
 ul li.checked::before {
   content: '';
   position: absolute;
@@ -50,7 +50,7 @@ ul li.checked::before {
   width: 7px;
 }
 
-/* Style the close button */
+/* Sulkevan napin tyyli */
 .close {
   position: absolute;
   right: 0;
@@ -63,7 +63,7 @@ ul li.checked::before {
   color: white;
 }
 
-/* Style the header */
+/* Header tyyli */
 .header {
   background-color: #6521bd;
   padding: 30px 40px;
@@ -89,7 +89,7 @@ input {
   font-size: 16px;
 }
 
-/* Style the "Add" button */
+/* Lisäysnapin tyyli */
 .addBtn {
   padding: 10px;
   width: 25%;
@@ -119,7 +119,7 @@ input {
 .callout-header {
   padding: 20px 10px;
   background: rgb(137, 138, 141);
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 
