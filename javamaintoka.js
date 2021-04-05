@@ -3,8 +3,7 @@ window.alert("Hei! Mennään mökille!");
 window.alert("Älä unohda avaimia!!");
 
 function tarkasta() {
-  var enimi = document.getElementById("fname").value;
-  var sukunimi = document.getElementByID("lname").value;
+ 
   var email = document.getElementByID("email").value;
   console.log("Syötit arvot: " + enimi + " " + sukunimi);
   }
