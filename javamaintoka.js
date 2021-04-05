@@ -6,7 +6,7 @@ window.alert("Älä unohda avaimia!!");
 function tarkasta() {
  
   var email = document.getElementByID("email").value;
-  console.log("Syötit arvot: " + enimi + " " + sukunimi);
+
   }
 
 
