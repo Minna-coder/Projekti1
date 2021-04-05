@@ -1,5 +1,15 @@
-// tämä on otettu malliksi netistä ja muokattu omiin tarpeisiin
-// Luo "close" button ja lisää it to each list item
+
+window.alert("Hei! Mennään mökille!");
+window.alert("Älä unohda avaimia!!");
+
+function tarkasta() {
+  var enimi = document.getElementById("fname").value;
+  var sukunimi = document.getElementByID("lname").value;
+  var email = document.getElementByID("email").value;
+  console.log("Syötit arvot: " + enimi + " " + sukunimi);
+  }
+
+
 var myNodelist = document.getElementsByTagName("li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -10,7 +20,6 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Klikkaa on a close button to piilottamaan the current list item
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -20,7 +29,6 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Lisää tsekkaussymboli "checked" when clicking on a list item
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -28,7 +36,6 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
-// Luo uuden list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
@@ -53,5 +60,7 @@ function newElement() {
       div.style.display = "none";
     }
   }
+
+
 
 }

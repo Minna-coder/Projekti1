@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tyyli.css">
     <title>Mökkilista</title>
+
 </head>
 <body>
-  <script>
-    window.alert("Hei! Mennään mökille!");
-    window.alert("Älä unohda avaimia!!");
-  </script>
 
     <div id="ekaDIV" class="header">
         <h1>Mökkilista</h1>
+        
         <style>
           img {
             border-radius: 50%;
@@ -25,13 +23,13 @@
           <img src="talo.jpg" alt="Avatar" style="width:200px">
           
         <p>Vie mennessäs - Tuo tullessas!</p>
-
+      
         <p>
         
           <button onclick="myFunction()">Päivämäärä ja aika</button>
           
           <script>
-              var d = new Date();
+          var d = new Date();
           function myFunction()
           {
             alert("Lähdet tänään " + d + " mökille ja palaat syksymmällä. Hyvää lomaa!");
@@ -54,24 +52,26 @@
         <li>Pyyhkeet</li>
         <li>Tulitikut</li>
       </ul>
-      
-      <style>
-        .footer {
-          position: static;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: rgb(125, 119, 199);
-          color: white;
-          text-align: center;
-        }
-        </style>
+     
         
-        <div class="footer">
-          <p>Osoite mökille: Sorpanniementie 19 C, Polvijärvi, Kinahmo</p>
-          <a href="https://www.polvijarvi.fi/">Kunnan sivut</a></br>
-          <a href="https://www.foreca.fi/Finland/Polvijarvi">Säätila mökillä</a>
-        </div>
+      <div class="footer">
+          <p><Strong>Osoite mökille: Sorpanniementie 19 C, Polvijärvi, Kinahmo</Strong></p>
+
+          <a href="https://www.polvijarvi.fi/"><Strong>Kunnan sivut</Strong></a><br>
+          <a href="https://www.foreca.fi/Finland/Polvijarvi"><Strong>Säätila mökillä</Strong></a></br>
+        
+  
+      </div>
+
+      <form name="myForm" action="#" method="post">
+        
+        <p> <Strong>Email:</Strong><input type="email" id="email" required /></p><br />
+        <input type="submit" onclick="tarkasta()" value="Lähetä sähköpostia!"/>
+        </form>
+        </body>
+        </html>
+      
+     
 
     <script src="javamaintoka.js">
 

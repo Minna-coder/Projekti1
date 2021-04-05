@@ -1,15 +1,14 @@
+/*Vaikutteita w3-koulun listasta mutta myös omia juttuja */
+
 * {
 box-sizing: border-box;
 }
-
-/* TÄmä poistaa margins and padding from the list */
 
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* Tyyli the list items */
 ul li {
   cursor: pointer;
   position: relative;
@@ -19,19 +18,13 @@ ul li {
   transition: 0.2s;
 }
 
-/* Seepraraidat listalla  */
-ul li:nth-child(odd) {
-  background: #f9f9f9;
-}
-
-/* Tummempi tausta hoverilla */
 ul li:hover {
   background: #ddd;
 }
 
-/* klikkaus, lisää background color and yliviivaa */
+/* klikkaus ja yliviivaa */
 ul li.checked {
-  background: #888;
+  background: rgb(243, 240, 240);
   color: #fff;
   text-decoration: line-through;
 }
@@ -59,13 +52,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #340361;
+  background-color: #7e55ee;
   color: white;
 }
 
 /* Header tyyli */
 .header {
-  background-color: #6521bd;
+  background-color: #7540bb;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -94,7 +87,7 @@ input {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
-  color: rgb(51, 8, 99);
+  color: rgb(123, 50, 206);
   float: left;
   text-align: center;
   font-size: 16px;
@@ -111,4 +104,57 @@ input {
 .closebtn:hover {
   color: lightgrey;
 }
+
+/*alatunniste */
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(85, 75, 199);
+  color: white;
+  text-align: center;
+
+
+
+}  
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flexbox;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 15px 5px 5;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 15px 5px 0;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+
+
+.form-inline button:hover {
+  background-color: rgb(148, 39, 93);
+}
+
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #673dc9;
+  color: rgb(236, 238, 241);
+}
+
 
