@@ -9,41 +9,40 @@
 </head>
 <body>
 
-    <div id="ekaDIV" class="header">
-        <h1>Mökkilista</h1>
+<div id="ekaDIV" class="header">
+  <h2>Mökkilista</h2>
         
-        <style>
-          img {
-            border-radius: 50%;
+    <style>
+      img {
+      border-radius: 50%;
           }
-          </style>
-          </head>
-          <body>
+    </style>
+    </head>
+
+  <body>
            
-          <img src="talo.jpg" alt="Avatar" style="width:200px">
+      <img src="talo.jpg" alt="Avatar" style="width:200px">
           
-        <p>Vie mennessäs - Tuo tullessas!</p>
+      <p>Vie mennessäs - Tuo tullessas!</p>
       
-        <p>
+      <p>
         
-          <button onclick="myFunction()">Päivämäärä ja aika</button>
-          
+        <button onclick="myFunction()">Päivämäärä ja aika</button>
           <script>
           var d = new Date();
           function myFunction()
           {
-            alert("Lähdet tänään " + d + " mökille ja palaat syksymmällä. Hyvää lomaa!");
+            alert("Lähdet tänään " + d + " mökille. Ilmoita siitä sähköpostilla alla. Hyvää lomaa!");
            
-          }
-      
+          } 
           </script> 
           
-         </p> 
+      </p> 
        
         <input type="text" id="myInput" placeholder="Merkitse tähän...">
         <span onclick="newElement()" class="addBtn">Lisää</span>
 
-      </div>
+</div>
       
       <ul id="ekaUL">
         <li>Kahvit ja teet</li>
@@ -53,29 +52,20 @@
         <li>Tulitikut</li>
       </ul>
      
-        
-      <div class="footer">
+<div class="footer">
           <p><Strong>Osoite mökille: Sorpanniementie 19 C, Polvijärvi, Kinahmo</Strong></p>
 
           <a href="https://www.polvijarvi.fi/"><Strong>Kunnan sivut</Strong></a><br>
           <a href="https://www.foreca.fi/Finland/Polvijarvi"><Strong>Säätila mökillä</Strong></a></br>
         
-  
-      </div>
+</div>
 
       <form name="myForm" action="#" method="post">
-        
         <p> <Strong>Email:</Strong><input type="email" id="email" required /></p><br />
         <input type="submit" onclick="tarkasta()" value="Lähetä sähköpostia!"/>
-        </form>
-        </body>
-        </html>
-      
-     
+      </form>
 
-    <script src="javamaintoka.js">
-
-
+        <script src="javamaintoka.js">
 </script> 
 </body>
 </html>
