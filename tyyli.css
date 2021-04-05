@@ -117,7 +117,7 @@ input {
 
 }  
 
-/* LOmakkeen tyyli */
+/* Lomakkeen tyyli */
 .form-inline {
   display: flexbox;
   flex-flow: row wrap;
