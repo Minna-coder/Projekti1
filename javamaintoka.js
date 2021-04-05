@@ -1,3 +1,4 @@
+/*Vaikutteita w3-koulun listasta mutta myös omia juttuja */
 
 window.alert("Hei! Mennään mökille!");
 window.alert("Älä unohda avaimia!!");

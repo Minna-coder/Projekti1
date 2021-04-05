@@ -115,23 +115,21 @@ input {
   color: white;
   text-align: center;
 
-
-
 }  
 
-/* Style the form - display items horizontally */
+/* LOmakkeen tyyli */
 .form-inline {
   display: flexbox;
   flex-flow: row wrap;
   align-items: center;
 }
 
-/* Add some margins for each label */
+/* Label-marginaalit */
 .form-inline label {
   margin: 5px 15px 5px 5;
 }
 
-/* Style the input fields */
+/* Tyyli input kentässä */
 .form-inline input {
   vertical-align: middle;
   margin: 5px 15px 5px 0;
@@ -139,13 +137,6 @@ input {
   background-color: #fff;
   border: 1px solid #ddd;
 }
-
-
-
-.form-inline button:hover {
-  background-color: rgb(148, 39, 93);
-}
-
 
 input[type=email] {
   width: 100%;
